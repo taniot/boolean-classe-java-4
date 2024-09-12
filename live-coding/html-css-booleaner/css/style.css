@@ -5,3 +5,25 @@ Common Styles
 body {
     margin: 0;
 }
+
+.container {
+    padding: 0 15px;
+    /* padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;; */
+}
+
+/******************
+Header Styles
+******************/
+
+header {
+    background-color: #9cd6f4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img {
+    height: 45px;
+}
