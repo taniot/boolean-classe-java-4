@@ -95,3 +95,14 @@ main {
 #article-table-info tbody tr.odd {
     background-color: #dfe5f2;
 }
+
+/******************
+Footer Styles
+******************/
+
+footer {
+    background-color: #313a6b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
