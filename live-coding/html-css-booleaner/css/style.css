@@ -23,6 +23,10 @@ p {
     padding-right: 15px;; */
 }
 
+/* .text-small {
+    font-size: 14px;
+} */
+
 /******************
 Header Styles
 ******************/
@@ -33,7 +37,7 @@ header {
     padding-bottom: 40px;
 }
 
-img {
+header img.logo {
     height: 45px;
 }
 
@@ -46,6 +50,10 @@ main {
     padding-bottom: 45px;
 }
 
+hgroup {
+    margin-bottom: 25px;
+}
+
 .author-date {
     color: gray;
 }
@@ -55,5 +63,9 @@ main {
 }
 
 .author-date .date {
+    font-size: 14px;
+}
+
+.article-image figcaption {
     font-size: 14px;
 }
