@@ -2,9 +2,18 @@
 Common Styles
 ******************/
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
     margin: 0;
 }
+
+p {
+    margin: 0;
+} */
 
 .container {
     padding: 0 15px;
@@ -26,4 +35,25 @@ header {
 
 img {
     height: 45px;
+}
+
+/******************
+Main Styles
+******************/
+
+main {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.author-date {
+    color: gray;
+}
+
+.author-date .author {
+    color: #4ea0ff;
+}
+
+.author-date .date {
+    font-size: 14px;
 }
