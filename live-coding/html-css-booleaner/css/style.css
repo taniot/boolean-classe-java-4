@@ -78,3 +78,20 @@ main {
 #article-content .article-list-elements {
     list-style-position: inside;
 }
+
+#article-table-info {
+    text-align: left;
+}
+
+#article-table-info thead {
+    background-color: #7fa6fb;
+    color: #ffffff;
+}
+
+#article-table-info thead .main-content {
+    width: 50%;
+}
+
+#article-table-info tbody tr.odd {
+    background-color: #dfe5f2;
+}
