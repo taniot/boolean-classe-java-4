@@ -1,0 +1,44 @@
+/**********
+Reset
+*********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********
+Common
+*********/
+
+/* body {
+    background-color: pink;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+} */
+
+.box {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50%;
+}
