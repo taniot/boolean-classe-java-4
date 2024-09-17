@@ -24,3 +24,48 @@ header {
     padding-top: 10px;
     margin-bottom: 40px;
 }
+
+/********
+HEADER
+********/
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+main section {
+    padding: 0 50px;
+}
+
+section#buttons {
+    padding-top: 12px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+section#buttons button {
+    border: 1px solid #c4cbd0;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+section#buttons button:hover {
+    background-color: red;
+    border-color: red;
+}
+
+section#buttons button.new-task {
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+}
+
+section#buttons button.new-task:hover {
+    background-color: red;
+    border-color: red;
+}
