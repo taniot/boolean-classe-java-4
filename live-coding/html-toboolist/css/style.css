@@ -13,6 +13,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /********
 HEADER
 ********/
@@ -26,7 +30,7 @@ header {
 }
 
 /********
-HEADER
+MAIN
 ********/
 
 main {
@@ -68,4 +72,16 @@ section#buttons button.new-task {
 section#buttons button.new-task:hover {
     background-color: red;
     border-color: red;
+}
+
+section#tasks {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+section#tasks h3::before {
+    content: "\25be";
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 14px;
 }
