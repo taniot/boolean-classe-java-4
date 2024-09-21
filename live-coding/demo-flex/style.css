@@ -42,3 +42,34 @@ ul {
 .chi-siamo {
     order: -1;
 }
+
+/*******
+21/09
+*******/
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: bisque;
+    align-items: start;
+    /* justify-content: space-between;
+    flex-direction: column-reverse; */
+}
+
+.col {
+    width: 50px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+/*******
+Container DEMO
+*******/
+
+.container-demo {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: chocolate;
+}
