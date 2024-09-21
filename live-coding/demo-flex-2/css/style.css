@@ -1,0 +1,108 @@
+/**********
+RESET
+**********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/**********
+TYPOGRAPHY
+**********/
+
+body {
+    /* font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/**********
+HEADER
+**********/
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div {
+    padding: 20px;
+}
+
+header .header-left {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header .header-left {
+    background-color: aqua;
+}
+
+header .header-right {
+    background-color: coral;
+    flex-grow: 1;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+header nav .menu .chi-siamo-link {
+    background-color: blue;
+}
+
+/**********
+MAIN
+**********/
+
+.container {
+    max-width: 1140px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+/* griglia con margin */
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 -10px;
+}
+
+.col {
+    width: calc(100% / 3 - 20px);
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+} */
+
+/* griglia con gap */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.col {
+    width: calc((100% - 20px) / 3);
+    height: 250px;
+    border: 2px solid black;
+}

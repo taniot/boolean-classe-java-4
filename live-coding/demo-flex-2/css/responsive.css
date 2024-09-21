@@ -1,0 +1,26 @@
+/* mobile */
+body {
+    background-color: darkkhaki;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: red;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
