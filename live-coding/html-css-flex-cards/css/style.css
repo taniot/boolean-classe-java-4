@@ -26,15 +26,103 @@ UTILITIES
     margin: 0 auto;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /*******
 HEADER
 *******/
 
 header {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 header h1 {
     margin: 20px 0 40px 0;
     color: #e53170;
+}
+
+/*******
+MAIN
+*******/
+
+/* .row {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.col {
+    width: calc((100% - 60px) / 3);
+
+
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+} */
+
+.row {
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    width: 100%;
+    /* width: calc(100% / 3 - 30px); */
+
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.content-image {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: brown;
+}
+
+.content-info {
+    flex-grow: 1;
+    /* width: calc(100% - 100px); */
+    background-color: darkgoldenrod;
+}
+
+/* .col {
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+} *
+
+/**** DESKTOP FIRST ******/
+/* 
+@media screen and (max-width: 768px) {
+    .col {
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .col {
+        width: 100%;
+    }
+} */
+
+/**** MOBILE FIRST ******/
+@media screen and (min-width: 768px) {
+    .col {
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .col {
+        width: calc(100% / 3 - 30px);
+    }
 }
